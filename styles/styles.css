@@ -22,6 +22,12 @@ a {
     font-weight: 500;
 }
 
+.title-primary {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
 .desc-primary {
     color: #534C64;
     font-size: 20px;
@@ -52,12 +58,6 @@ a {
 
 }
 
-.logo-title {
-    color: #0B0223;
-    font-size: 45px;
-    font-weight: 700;
-}
-
 .g {
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     background-clip: text;
@@ -84,11 +84,13 @@ a {
     justify-content: space-between;
     gap: 70px;
 }
-.banner-content{
+
+.banner-content {
     padding: 148px 0;
-    
-    
+
+
 }
+
 .banner-title {
     color: #0B0223;
     font-size: 48px;
@@ -125,14 +127,45 @@ a {
     text-transform: uppercase;
     border-style: none;
 }
-.go-rouge-btn{
+
+.go-rouge-btn {
     border-radius: 48px;
     color: #fff;
     padding: 20px 40px;
-    background-color:  #4EC5F7;
+    background-color: #4EC5F7;
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
     border-style: none;
 
+}
+
+/* online gamer styles */
+
+.online-gamer-section {
+    margin-top: 120px;
+}
+
+.gamer-description {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.online-gamer-card{
+    display: flex;
+    gap: 24px;
+}
+.card-description{
+    padding-top: 24px;
 }
