@@ -162,10 +162,64 @@ a {
     font-weight: 700;
     line-height: normal;
 }
-.online-gamer-card{
+
+.online-gamer-card {
     display: flex;
     gap: 24px;
 }
-.card-description{
+
+.card-description {
     padding-top: 24px;
+}
+
+/* play games styles */
+
+.play-games-section {
+    margin-top: 120px;
+}
+.play-games{
+    display: flex;
+    gap: 120px;
+    border: 1px solid red;
+}
+
+.play-games-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+}
+.play-content{
+    border: 1px solid blue;
+}
+
+.play-title-style {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-games-img{
+    border: 1px solid black;
+}
+
+.son-of-play-img{
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+}
+
+/* game type style */
+
+.games-type{
+    margin-top: 120px;
+}
+.games-name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.games-name > div{
+    width: 250px;
+    height: 80px;
 }
