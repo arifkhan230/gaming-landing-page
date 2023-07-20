@@ -177,7 +177,8 @@ a {
 .play-games-section {
     margin-top: 120px;
 }
-.play-games{
+
+.play-games {
     display: flex;
     gap: 120px;
     border: 1px solid red;
@@ -189,7 +190,8 @@ a {
     font-weight: 400;
     padding-top: 24px;
 }
-.play-content{
+
+.play-content {
     border: 1px solid blue;
 }
 
@@ -199,11 +201,12 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.play-games-img{
+
+.play-games-img {
     border: 1px solid black;
 }
 
-.son-of-play-img{
+.son-of-play-img {
     position: relative;
     left: 500px;
     bottom: 200px;
@@ -211,15 +214,30 @@ a {
 
 /* game type style */
 
-.games-type{
+.games-type {
     margin-top: 120px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    ;
 }
-.games-name{
+
+.games-name {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-.games-name > div{
-    width: 250px;
-    height: 80px;
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 260px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px 5px;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+
 }
