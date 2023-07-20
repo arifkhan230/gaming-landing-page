@@ -310,9 +310,25 @@ a{
 
 /* responsive */
 @media screen and (max-width:576px) {
-    .nav-container, .nav-item {
+    .nav-container, .banner, .play-games{
         flex-direction: column;
+        align-items: center;
 
     }
+    .play-games-img> img{
+        
+    }
+
+    .banner-img >img{
+        width: 100%;
+    }
+    .nav-item > ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .online-gamer-card{
+        flex-direction: column;
+    }
+
     
 }
