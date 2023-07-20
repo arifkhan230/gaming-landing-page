@@ -13,7 +13,9 @@
 li {
     list-style: none;
 }
-
+a{
+    text-decoration: none;
+}
 
 
 .title-primary {
@@ -42,7 +44,7 @@ li {
     align-items: center;
     gap: 20px;
 }
-.anchor{
+.anchor a{
     text-decoration: none;
     color: #3C354F;
     text-align: center;
@@ -182,7 +184,7 @@ li {
 .play-games {
     display: flex;
     gap: 120px;
-    border: 1px solid red;
+    align-items: center;
 }
 
 .play-games-description {
@@ -193,7 +195,7 @@ li {
 }
 
 .play-content {
-    border: 1px solid blue;
+    
 }
 
 .play-title-style {
@@ -204,13 +206,14 @@ li {
 }
 
 .play-games-img {
-    border: 1px solid black;
+    position: relative;
 }
 
 .son-of-play-img {
-    position: relative;
-    left: 500px;
-    bottom: 200px;
+    position: absolute;
+    width: 250px;
+    left: 550px;
+    bottom: -100px;
 }
 
 /* game type style */
@@ -278,7 +281,7 @@ li {
     padding-top: 50px;
 }
 
-.social-accounts> {
+.social-accounts> a{
     color: #fff;
     text-decoration: none;
     text-align: center;
@@ -291,7 +294,7 @@ li {
     padding-top: 50px;
 }
 
-.policy> {
+.policy> a{
     color: #fff;
     text-decoration: none;
     text-align: center;
@@ -303,4 +306,13 @@ li {
     color: #fff;
     padding-top: 50px;
     padding-bottom: 100px;
+}
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .nav-container, .nav-item {
+        flex-direction: column;
+
+    }
+    
 }
